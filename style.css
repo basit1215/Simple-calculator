@@ -1,0 +1,142 @@
+body {
+  background-color: white;
+
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 55px;
+  color: black;
+  border: thin;
+  text-shadow: 4px 3px rgb(255, 0, 0);
+}
+
+.container {}
+
+input {
+  width: 80%;
+  height: 60px;
+  /* border: solid; */
+  /* border-radius: 50px; */
+  margin: 13px 0px 10px;
+  padding: 0px 10px;
+  font-size: 20px;
+  outline: none;
+  /* box-shadow: 0px 0px 7px 0px rgb(0 0 0 / 38%); */
+  border-width: inherit;
+  border-style: none;
+  background-color: #ffe2bf;
+  border-radius: 10px;
+}
+
+.calculator {}
+
+form {}
+
+.display {
+  width: 316px;
+  background-color: #ffe2bf;
+  margin: 60px auto 35px;
+  text-align: center;
+  border-radius: 15px 15px 0px 0px;
+  padding: 0px 2px;
+  height: 170px;
+  /* box-shadow: 0px 3px 40px -20px rgba(66, 68, 90, 1); */
+  /* border-style: solid; */
+  /* border-color: #000000; */
+  border-right-style: solid;
+  border-top-style: solid;
+  border-left-style: solid;
+  display: flex;
+    flex-direction: column-reverse;
+}
+
+.allBtnDiv {
+  width: 310px;
+  background-color: #fffbcf;
+  margin: -35px auto 0px;
+  text-align: center;
+  border-radius: 0px 0px 15px 15px;
+  padding: 50px 5px 40px 5px;
+  height: 350px;
+  /* box-shadow: 0px 0px 63px -24px rgba(66, 68, 90, 1); */
+  border-top-style: double;
+  /* border-color: #000000; */
+  display: flex;
+  gap: -5px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  /* flex-direction: row-reverse; */
+  /* box-shadow: 0px 0px 59px -24px rgba(66, 68, 90, 1); */
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+}
+
+.rowOneCol {
+  width: 75px;
+
+}
+
+.rowTwoCol {
+  width: 75px;
+
+}
+
+.rowThreeCol {
+  width: 75px;
+
+}
+
+.rowFourCol {
+  width: 75px;
+
+}
+
+.inpBtn{
+  font-weight: bold;
+
+}
+
+.operationInp{
+  font-size: 50px;
+
+}
+
+.rowFiveCol {
+  width: 91.9%;
+  display: flex;
+  /* justify-content: flex-end; */
+  /* flex-direction: column-reverse; */
+  gap: 15px;
+  align-items: center;
+  /* height: 203px;*/
+
+}
+
+.operator {
+  background-color: #ffc784;
+
+}
+
+.mainOperator {
+  background-color: #ed9d3d;
+
+}
+
+
+ 
+
+
+
+/*   
+  #rcorners2 {
+    border-radius: 0px 0px 213px;
+    background: #73AD21;
+    padding: 20px;
+    width: 239px;
+    height: 223px;
+  } */
